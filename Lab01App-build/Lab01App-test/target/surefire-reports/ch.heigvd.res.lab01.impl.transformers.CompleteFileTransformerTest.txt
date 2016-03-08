@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformerTest
+itShouldApplyTwoTransformationsOnAFile(ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformerTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: The student has not implemented this method yet.
+	at ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformer.decorateWithFilters(CompleteFileTransformer.java:19)
+	at ch.heigvd.res.lab01.impl.transformers.FileTransformer.visit(FileTransformer.java:54)
+	at ch.heigvd.res.lab01.impl.transformers.CompleteFileTransformerTest.itShouldApplyTwoTransformationsOnAFile(CompleteFileTransformerTest.java:36)
+

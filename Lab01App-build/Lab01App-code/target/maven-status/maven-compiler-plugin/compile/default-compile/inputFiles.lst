@@ -1,0 +1,15 @@
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/quotes/TagsGenerator.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/filters/FileNumberingFilterWriter.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/transformers/FileTransformer.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/explorers/DFSFileExplorer.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/interfaces/IApplication.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/filters/UpperCaseFilterWriter.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/quotes/QuoteClient.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/Application.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/interfaces/IFileExplorer.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/quotes/SimpleObjectMapperProvider.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/quotes/Quote.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/interfaces/IFileVisitor.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/transformers/NoOpFileTransformer.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/Utils.java
+/Users/admin/Documents/heig-vd/Teaching/RES/repos/Teaching-HEIGVD-RES-2016-Labo-01/Lab01App-build/Lab01App-code/src/main/java/ch/heigvd/res/lab01/impl/transformers/CompleteFileTransformer.java

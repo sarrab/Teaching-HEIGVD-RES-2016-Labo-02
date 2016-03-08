@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: ch.heigvd.res.lab01.impl.UtilsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in ch.heigvd.res.lab01.impl.UtilsTest
+itShouldBePossibleToGetANewLineOnUnix(ch.heigvd.res.lab01.impl.UtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: The student has not implemented this method yet.
+	at ch.heigvd.res.lab01.impl.Utils.getNextLine(Utils.java:23)
+	at ch.heigvd.res.lab01.impl.UtilsTest.itShouldBePossibleToGetANewLineOnUnix(UtilsTest.java:40)
+
+itShouldBePossibleToGetANewLineOnMacOS9(ch.heigvd.res.lab01.impl.UtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: The student has not implemented this method yet.
+	at ch.heigvd.res.lab01.impl.Utils.getNextLine(Utils.java:23)
+	at ch.heigvd.res.lab01.impl.UtilsTest.itShouldBePossibleToGetANewLineOnMacOS9(UtilsTest.java:29)
+
+itShouldBePossibleToGetANewLineOnWindows(ch.heigvd.res.lab01.impl.UtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: The student has not implemented this method yet.
+	at ch.heigvd.res.lab01.impl.Utils.getNextLine(Utils.java:23)
+	at ch.heigvd.res.lab01.impl.UtilsTest.itShouldBePossibleToGetANewLineOnWindows(UtilsTest.java:18)
+
+itShouldReturnALineOnlyIfThereIsANewLineCharacterAtTheEnd(ch.heigvd.res.lab01.impl.UtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: The student has not implemented this method yet.
+	at ch.heigvd.res.lab01.impl.Utils.getNextLine(Utils.java:23)
+	at ch.heigvd.res.lab01.impl.UtilsTest.itShouldReturnALineOnlyIfThereIsANewLineCharacterAtTheEnd(UtilsTest.java:51)
+
