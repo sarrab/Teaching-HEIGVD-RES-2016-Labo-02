@@ -33,10 +33,10 @@ public class ApplicationTest {
   @BeforeClass
   public static void invokeApplication() throws IOException {
     IApplication application = new Application();
-    application.fetchAndStoreQuotes(NUMBER_OF_QUOTES); 
+    application.fetchAndStoreQuotes(NUMBER_OF_QUOTES);
     application.processQuoteFiles();
   }
-  
+
   @Test
   public void theAuthorMustProvideAnEmailAddress() {
     IApplication application = new Application();
@@ -44,14 +44,14 @@ public class ApplicationTest {
     assertNotNull(email);
     assertTrue(email.indexOf("@heig-vd.ch") != -1);
   }
-  
+
   @Test
   public void theApplicationShouldGenerateTheCorrectNumberOfQuoteFiles() {
     String[] extensions = {"utf8"};
     Collection<File> files = FileUtils.listFiles(new File(Application.WORKSPACE_DIRECTORY), extensions, true);
     assertEquals(NUMBER_OF_QUOTES, files.size());
   }
-  
+
   @Test
   public void theApplicationShouldUseTheCorrectSyntaxToNameTheQuoteFiles() {
     String[] extensions = {"utf8"};
@@ -63,7 +63,7 @@ public class ApplicationTest {
       assertTrue(matcher.matches());
     }
   }
-  
+
   @Test
   public void theApplicationShouldGenerateTheCorrectNumberOfOutputFiles() {
     String[] extensions = {"out"};
@@ -78,15 +78,15 @@ public class ApplicationTest {
       public boolean accept(File dir, String file) {
         return file.endsWith(".utf8.out");
       }
-    },TrueFileFilter.INSTANCE);
+    }, TrueFileFilter.INSTANCE);
     assertEquals(NUMBER_OF_QUOTES, files.size());
   }
-  
+
   @Test
   public void theApplicationShouldBeAbleToGenerateTheListOfFileNames() throws IOException {
     Application app = new Application();
     app.clearOutputDirectory();
-    
+
     String rootDirectory = Application.WORKSPACE_DIRECTORY;
     FileUtils.deleteDirectory(new File(rootDirectory));
     new File(rootDirectory).mkdir();
@@ -109,12 +109,12 @@ public class ApplicationTest {
     new File(fileC1).createNewFile();
     new File(fileD1).createNewFile();
     new File(fileD2).createNewFile();
-    
+
     StringWriter writer = new StringWriter();
     app.printFileNames(writer);
     String output = writer.toString();
     StringBuilder sb = new StringBuilder();
-    
+
     sb.append(rootDirectory);
     sb.append("\n");
     sb.append(dirA);
@@ -135,7 +135,7 @@ public class ApplicationTest {
     sb.append("\n");
     sb.append(fileD2);
     sb.append("\n");
-    
+
     // Bug fix in the original unit test by teacher
     String fileSeparator = File.separator;
     if (fileSeparator.equals("\\")) {
@@ -144,15 +144,14 @@ public class ApplicationTest {
     Pattern p = Pattern.compile(fileSeparator);
     Matcher m = p.matcher(output);
     String outputWithUnixSeparator = m.replaceAll("/");
-    
+
     String reference = sb.toString();
     boolean applicationReturnsValidPlatformSpecificFilePaths = (reference.equals(output));
     boolean applicationReturnsValidUnixFilePaths = (reference.equals(outputWithUnixSeparator));
     boolean applicationReturnsValidFilePaths = (applicationReturnsValidPlatformSpecificFilePaths || applicationReturnsValidUnixFilePaths);
-    
+
     assertTrue(applicationReturnsValidFilePaths);
 
   }
-  
 
 }
